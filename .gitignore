@@ -1,0 +1,38 @@
+# ArcGIS geodatabases and locks
+*.gdb/
+*.lock
+*.sr.lock
+
+# ArcGIS project backups / temporary files
+*.aprx.bak
+*.tmp
+
+# Large geospatial raster / point-cloud data
+*.tif
+*.tiff
+*.img
+*.las
+*.laz
+
+# Raw and processed project data
+data/raw/
+data/processed/
+outputs/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Local environment / path configuration
+config.py
+.env
+.venv/
+venv/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
